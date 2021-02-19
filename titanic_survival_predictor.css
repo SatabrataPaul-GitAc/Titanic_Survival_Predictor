@@ -1,0 +1,51 @@
+body
+{
+  background-image: url("https://cdn.wallpapersafari.com/95/72/Ns7jIb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1
+{
+  text-align: center;
+  color: SlateBlue;
+}
+
+h2
+{
+  text-align: center;
+  color: white;
+}
+
+h2.fill
+{
+   text-align: center;
+   color: rgb(255,165,0);
+}
+
+form{
+
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align:center;
+  border-style:ridge;
+  border-color:white;
+  border-width:5px;
+  padding:150px;
+}
+
+p{
+  display: inline;
+  color: rgb(112, 240, 7);
+}
+
+.clr
+{
+  color: rgb(0, 255, 0);
+}
+
+.opac
+{
+  opacity: 0.6;
+}
+

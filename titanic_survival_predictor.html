@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>  
+	<meta charset="utf-8" />
+  <title>Titanic Survival Predictor.html</title>
+  <link rel = "stylesheet"
+   href = "titanic_survival_predictor.css" />
+</head>
+<body>
+  <div>
+
+      <h1> Welcome onboard to the TITANIC of 21st Century !!! </h1>
+      <br><br><br>
+      <h2> Worried about the history of this luxury ship ??? Worried about whether if a similar incident happens , you'll survive or not ??? </h2>
+      <br>
+      <h2 class="fill"> Fill out the necessary details below and you'll get a prediction of your survival chances !!! </h2>
+
+      <form action="http://192.168.1.103/cgi-bin/titanic_survival.py">
+          <p><b>NAME:  </b></p><input type="text" name="nm" placeholder="Enter your name here" />
+          <br><br>
+
+          <p><b>Gender:  </b></p>
+          <input list="genders" name="gender" placeholder="Choose One option">
+          <datalist id="genders">
+            <option value="Male">
+            <option value="Female">
+          </datalist>
+          <br><br>
+
+          <p><b>Age:  </b></p><input type="number" name="age" placeholder="Enter the age">
+          <br><br>
+
+          <p><b>PClass:  </b></p>
+          <input list="pclass" name="pclass" placeholder="Choose One option">
+          <datalist id="pclass">
+            <option value=1>
+            <option value=2>
+            <option value=3>
+          </datalist>
+          <br><br>
+
+          <p class="clr"><b>Sibling_Count:  </b></p><input type="number" name="sibsp" placeholder="Enter number of siblings">
+          <br><br>
+
+          <p><b>Parent_Child_Ratio:  </b></p><input type="number" name="parch" placeholder="Children" min="0" max="3">
+          <br><br>
+
+          <p><b>Embarkment:  </b></p>
+          <input list="embarkment" name="embark" placeholder="Choose One option">
+          <datalist id="embarkment">
+            <option value="C">
+            <option value="S">
+            <option value="Q">
+          </datalist>
+          <br><br>
+
+          <input type="Submit" class="opac">
+      
+      </form>
+
+  </div>
+           
+</body>

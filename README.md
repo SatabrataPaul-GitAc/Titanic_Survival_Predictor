@@ -10,12 +10,12 @@
 
 ### Technologies and Concepts used:
 
-#### The website is built using **HTML5** and **CSS** . For the clients or passengers to use this website or web app , it has been hosted on a webserver in a Virtual Machine (**REDHAT**) . The webserver that hase been used is **APACHE WEBSERVER** 
+#### The website is built using *HTML5* and *CSS* . For the clients or passengers to use this website or web app , it has been hosted on a webserver in a Virtual Machine (*REDHAT*) . The webserver that hase been used is *APACHE WEBSERVER*
 
-#### By default , the webserver is running on port number **80**
+#### By default , the webserver is running on port number *80*
 #### Make sure to write the firewall rule in the virtual machine , to allow traffic on port number 80 , i.e., for our web server 
 
-#### The **change** that you have to make , if you downoad or copy the **FRONT END CODE** into your local system , is that **update the ip address** for the url in the **form** tag of HTML . It should be the ip address of your own Virtual Machine . 
+#### The *change* that you have to make , if you downoad or copy the *FRONT END CODE* into your local system , is that *update the ip address* for the url in the *form* tag of HTML . It should be the ip address of your own Virtual Machine . 
 
-#### In the **BACKEND** , the Python CGI and API programming script has been written , along with the **MACHINE LEARNING** code , that does the prediction . 
+#### In the *BACKEND* , the Python CGI and API programming script has been written , along with the *MACHINE LEARNING* code , that does the prediction . 
 
